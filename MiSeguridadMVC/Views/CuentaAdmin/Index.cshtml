@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>¡DB Aparment Administradores!</h1>
+    <p class="lead">Bienvenido, Admin. Este es el menú principal del administrador, este tiene acceso completo al sistema</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Leer más &raquo;</a></p>
+
+
+    <div class="col-md-4">
+
+
+
+        @Html.ActionLink("Acceso Administrador", "Index", "Recursos", new { area = "" }, new { @class = "navbar-brand" })
+    </div>
+
+    <div class="col-md-4">
+
+
+
+        @Html.ActionLink("Acceso Profesor", "Index2", "Recursos", new { area = "" }, new { @class = "navbar-brand" })
+    </div>
+
+    <div class="col-md-4">
+
+
+
+        @Html.ActionLink("Acceso a Coordinador", "Login2", "Account", new { area = "" }, new { @class = "navbar-brand" })
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Integrantes:</h2>
+        <p>
+            -Mario Cerón
+        </p>
+        <p>
+            -Alexander Cruz
+        </p>
+        <p>
+            -Eduardo Aguilar
+        </p>
+        <p>
+            -Walter Cuéllar
+        </p>    
+    </div>
+    
+</div>

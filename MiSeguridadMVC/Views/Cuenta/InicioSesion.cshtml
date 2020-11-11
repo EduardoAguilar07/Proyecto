@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "InicioSesion";
+    Layout = "~/Views/Account/_LayoutPage1.cshtml";
+}
+
+<h1>Login Profesores</h1>
+<div class="clear-loading spinner">
+    <span></span>
+</div>
+<div class="w3ls-login box box--big">
+    <!-- //Inicio del login --> 
+    <form action="Verify" method="post">
+        <div class="agile-field-txt">
+            <label><i class="fa fa-user" aria-hidden="true"></i> Usuario </label>
+            <input type="text" name="name" placeholder="Ingrese el usuario" required="" />
+        </div>
+        <div class="agile-field-txt">
+            <label><i class="fa fa-unlock-alt" aria-hidden="true"></i> Contraseña: </label>
+            <input type="password" name="password" placeholder="Ingrese contraseña" required="" id="myInput" />
+            <div class="agile_label">
+                <input id="check3" name="check3" type="checkbox" value="show password" onclick="myFunction()">
+                <label class="check" for="check3">Mostrar contraseña</label>
+            </div>
+        </div>
+        <!-- Scrip que muestra la contraseña -->
+        <script>
+				function myFunction() {
+					var x = document.getElementById("myInput");
+					if (x.type === "password") {
+						x.type = "text";
+					} else {
+						x.type = "password";
+					}
+				}
+        </script>
+        <!-- //end script -->
+        <input type="submit" value="ENTRAR">
+    </form>
+</div>
+<!-- //Fin del login -->
+<div class="copy-wthree">
+    <p>
+        © 2020 Departamento de Sistemas Login Form . All Rights Reserved | Design by
+        <a href="http://www.cdb.edu.sv/" target="_blank">Colegio Don Bosco</a>
+    </p>
+</div>
+

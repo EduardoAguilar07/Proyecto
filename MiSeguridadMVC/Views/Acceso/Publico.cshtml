@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Publico";
+}
+
+<div class="jumbotron">
+    <h1>DB DEPARMENT</h1>
+    <p class="lead">Este es nuestro proyecto de cátedra en ASP.NET, creada por Fénix Corporation</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Leer más &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+
+
+
+        @Html.ActionLink("Administrador", "InicioSesionAdmin", "CuentaAdmin", new { area = "" }, new { @class = "navbar-brand" })
+    </div>
+
+    <div class="col-md-4">
+
+
+
+        @Html.ActionLink("Profesor", "InicioSesion", "Cuenta", new { area = "" }, new { @class = "navbar-brand" })
+    </div>
+
+    <div class="col-md-4">
+
+
+
+        @Html.ActionLink("Coordinador", "InicioSesionCoordis", "CuentaCoordi", new { area = "" }, new { @class = "navbar-brand" })
+    </div>
+
+</div>
+
