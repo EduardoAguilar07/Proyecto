@@ -267,6 +267,14 @@
     <Content Include="Views\CuentaCoordi\Index.cshtml" />
     <Content Include="Views\Acceso\Publico2.cshtml" />
     <Content Include="Views\Acceso\Publico3.cshtml" />
+    <Content Include="Views\Recursos\Index3.cshtml" />
+    <Content Include="Views\Acceso\Publico4.cshtml" />
+    <Content Include="Views\Recursos\Index4.cshtml" />
+    <Content Include="Views\Recursos\Index5.cshtml" />
+    <Content Include="Views\Recursos\Index6.cshtml" />
+    <Content Include="Views\Recursos\Index7.cshtml" />
+    <Content Include="Views\Recursos\Index8.cshtml" />
+    <Content Include="Views\Recursos\Index9.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

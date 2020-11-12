@@ -4,21 +4,21 @@
 
 <div class="jumbotron">
     <h1>¡DB Aparment Coordinadores!</h1>
-    <p class="lead">Bienvenido, Admin. Este es el menú principal del administrador, este tiene acceso completo al sistema</p>
+    <p class="lead">Bienvenido, Coordi. Este es el menú principal del administrador, este tiene acceso completo al sistema</p>
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Leer más</a></p>
 
     <div class="col-md-4">
 
 
 
-        @Html.ActionLink("Acceso Profesor", "Index2", "Recursos", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("Acceso Profesor", "Index8", "Recursos", new { area = "" }, new { @class = "navbar-brand" })
     </div>
 
     <div class="col-md-4">
 
 
 
-        @Html.ActionLink("Acceso a Coordinador", "Login2", "Account", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("Acceso a Coordinador", "Index3", "Recursos", new { area = "" }, new { @class = "navbar-brand" })
     </div>
 </div>
 
@@ -38,5 +38,8 @@
             -Walter Cuéllar
         </p>    
     </div>
+
+
+    @Html.ActionLink("Cerrar Sesión", "Publico", "Acceso", new { area = "" }, new { @class = "navbar-brand" })
     
 </div>

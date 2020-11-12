@@ -33,6 +33,12 @@ namespace MiSeguridadMVC.Controllers
             return View();
         }
 
+        [AllowAnonymous]
+        public ActionResult Publico4()
+        {
+            return View();
+        }
+
 
 
     }

@@ -45,6 +45,68 @@ namespace MiSeguridadMVC.Controllers
                            select e;
             return View(Recursos);
         }
+
+        public ActionResult Index3()
+        {
+            var Recursos = from e in db.Recursos
+                           orderby e.ID
+                           select e;
+            return View(Recursos);
+        }
+
+        public ActionResult Index4()
+        {
+            var Recursos = from e in db.Recursos
+                           orderby e.ID
+                           select e;
+            return View(Recursos);
+        }
+
+        public ActionResult Index5()
+        {
+            var Recursos = from e in db.Recursos
+                           orderby e.ID
+                           select e;
+            return View(Recursos);
+        }
+
+        public ActionResult Index6()
+        {
+            var Recursos = from e in db.Recursos
+                           orderby e.ID
+                           select e;
+            return View(Recursos);
+        }
+
+
+        public ActionResult Index7()
+        {
+            var Recursos = from e in db.Recursos
+                           orderby e.ID
+                           select e;
+            return View(Recursos);
+        }
+
+
+        public ActionResult Index8()
+        {
+            var Recursos = from e in db.Recursos
+                           orderby e.ID
+                           select e;
+            return View(Recursos);
+        }
+
+        public ActionResult Index9()
+        {
+            var Recursos = from e in db.Recursos
+                           orderby e.ID
+                           select e;
+            return View(Recursos);
+        }
+
+
+
+
         // GET: Clientes/Details/5
         public ActionResult Details(int id)
     {
@@ -65,7 +127,7 @@ namespace MiSeguridadMVC.Controllers
         {
             db.Recursos.Add(emp);
             db.SaveChanges();
-            return RedirectToAction("Index2");
+            return RedirectToAction("Index");
 
             // TODO: Add insert logic here
             //  Clientes emp = new Models.Clientes();
